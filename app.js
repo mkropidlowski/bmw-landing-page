@@ -29,6 +29,11 @@ function viewModel(output) {
         card.appendChild(flipCardInner);
 
 
+        const flipCardFront = document.createElement('div');
+        flipCardFront.classList.add('flip-card-front');
+        flipCardInner.appendChild(flipCardFront);
+        flipCardFront.innerHTML = `<img src="${data.source}" alt="E90" class="bmw-img">`;
+    
         const backCard = document.createElement('div');
         backCard.classList.add('flip-card-back');
 
@@ -40,11 +45,6 @@ function viewModel(output) {
         `;
         flipCardInner.appendChild(backCard);
 
-        const flipCardFront = document.createElement('div');
-        flipCardFront.classList.add('flip-card-front');
-        flipCardInner.appendChild(flipCardFront);
-        flipCardFront.innerHTML = `<img src="${data.source}" alt="E90" class="bmw-img">`;
-    
         //infocard było card
         //card.addEventListener('click', () =>{
           //showDetailsCard(data);
