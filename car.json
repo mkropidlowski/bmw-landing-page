@@ -1,0 +1,31 @@
+[
+    {
+     "source": "img/E90.png",
+     "model": "Sedan (E90)", 
+     "modelYear": "2006-2011",
+     "shortText": "The sedan model was the first model sold of the E90/E91/E92/E93 3 series, being launched on 5 March 2005 for the 2006 model year. Production continued until a facelift revision was made for the 2009 model year. Production of the E90 concluded after the 2011 model year, succeeded by the F30 for 2012."
+    
+    },
+
+    {
+    "source": "img/E91.png",
+    "model": "Touring (E91)",
+    "modelYear": "2006-2012",
+    "shortText": "The E91 wagon/estate models were marketed as 'Touring' in Europe and 'Sports Wagon' in the North America.Optional equipment included a panoramic sunroof, which extends to the rear passenger area. Trim levels typically were similar to the E90 sedan, however the M3 wasn't produced in the wagon body style.Several markets outside Europe only offered amall subset of models in  sthe wagon body style. In the United States and Canada, the only wagon model available prior to 2007 was the 325xi, and then the 328i and 328xi from 2007 onwards."
+    },
+
+    {
+    "source": "img/E92.png",
+    "model": "Coupé (E92)", 
+    "modelYear": "2007-2012",
+    "shortText": "In August 2006, one year after the sedan was introduced, the E92 coupé body style was unveiled. These include the tail-light design (L-shaped on the coupe), more steeply angled headlights and smaller side windows. As per its E46 predecessor, the doors of the coupe are longer and have frameless door windows, the rear seat holds two passengers with a rear centre console tray and the front seatbelts are on motorised arms that extend from the B-pillar to hand the seatbelts to the driver and/or passenger. The E92 was the last generation to include coupé (and convertible) body styles as a part of the 3 Series range. For later generations, these body styles are marketed as the 4 Series."
+    },
+
+    {
+    "source": "img/E93.png",
+    "model": "Convertible (E93)",  
+    "modelYear": "2007-2013",
+    "shortText": "The E93 convertible was BMW's first model to use a retractable hardtop (folding metal roof), instead of the cloth roof as previously used. The E93 was one of first retractable hardtops in its price range. The BMW 3 Series convertible was often priced higher than direct rivals, however reviewers have praised its passenger/boot space (even with the roof down), driving dynamics, weight and chassis rigidity."
+    }
+    
+]

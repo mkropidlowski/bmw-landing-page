@@ -1,0 +1,257 @@
+body, html {
+    height: 100%;
+    margin:0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("img/bmwbg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.nav-menu {
+    width:480px;
+    background: linear-gradient(to right, 
+    #81C4FF 160px, #16588E 160px 320px, #E7222E 320px 480px);
+    transform: skewX(-30deg);
+    
+}
+
+.nav-menu ul li 
+{
+    display: inline-block;
+    transform: skewX(30deg);   
+}
+
+.nav-menu ul li a
+{
+    margin-right: 15px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.header-note {
+    font-size:35px;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    color: white;
+}
+
+
+
+.header-text {
+    margin: auto;
+    text-align: left;
+    font-size:20px;
+    width:450px;
+    color:rgb(233, 233, 233);
+}
+
+.header-btn {
+    position: relative;
+    margin-top:25px;
+    border: 0px;
+    width:150px;
+    height: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:rgb(149, 181, 252);
+    
+}
+
+
+
+ /* about section */
+ 
+ .about {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .box-designer-header {
+     margin: 50px auto;
+     width:399px;
+     height: 55px;
+     background: linear-gradient(to right, 
+     #81C4FF 133px, #16588E 133px 266px, #E7222E 266px 399px);
+     transform: skewX(-30deg);
+ }
+
+ .box-designer-header h1 {
+     transform: skewX(30deg);
+     margin: 0;
+     text-align: center;
+     color:white;
+ }
+
+ .box-designer {
+    margin-top:50px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+ }
+
+ .designer-photo {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width:225px;
+     height: 225px;
+     background-color: rgb(247, 247, 247);
+     border-radius: 50%;
+ }
+
+ .designer-photo img {
+     margin-top:20px
+ }
+
+ .designer-name {
+     font-weight: bold;
+     margin-top:10px;
+ }
+
+.history-design {
+    width:50%;
+    margin:35px 0 150px 0;
+    font-size:20px;
+    text-align: justify;
+    
+}
+
+ /* V - GEN */ 
+
+.v-generation {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.v-gen-header {
+    position: relative;
+    top:50px;
+}
+
+.photos-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    
+}
+
+.bmw-photo-box {
+    width:450px;
+    height: 350px;
+    margin:50px 25px 0 25px;
+    /* border: 1px solid red; */
+}
+
+
+.bmw-photo-box:hover {
+    /* background-color: rgb(149, 181, 252); */
+}
+.photos-con {
+    
+    margin: 0 auto;
+}
+
+.bmw-card {
+    width:700px;
+    height: 500px;
+    background-color: #16588E;
+    margin: 0 auto;
+    
+}
+
+.exit {
+    margin-top: 20px;
+    border-radius: 100%;
+    border:0;
+    width:35px;
+    height: 35px;
+    background-color: #E7222E;
+    color:#fff;
+}
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/* media query */ 
+
+@media only screen and (min-width: 1340px) {
+   
+    .photos-container {
+    width: 70%;
+    margin: 0 auto;
+    }
+
+}
+
+/* */
+
+.flip-card {
+    width: 450px;
+    height: 350px;
+   
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    
+    color: black;
+  }
+  
+  .flip-card-back {
+    
+    color:black;
+    transform: rotateY(180deg);
+  }
+
