@@ -17,10 +17,6 @@ function viewModel(output) {
 
     output.forEach(data =>{
 
-        // const card = document.createElement('div');
-        // card.classList.add('bmw-photo-box');
-        // card.innerHTML = `<img src="${data.source}" alt="E90" class="bmw-img">`;
-
         const card = document.createElement('div');
         card.classList.add('flip-card');
         card.classList.add('bmw-photo-box');
@@ -34,61 +30,26 @@ function viewModel(output) {
         flipCardInner.appendChild(flipCardFront);
         flipCardFront.innerHTML = `<img src="${data.source}" alt="E90" class="bmw-img">`;
     
+        bmwPhotoBox.appendChild(card);
+
+        
         const backCard = document.createElement('div');
         backCard.classList.add('flip-card-back');
 
-            backCard.innerHTML = `
-                <p>${data.model}</p>
-                <p>${data.modelYear}</p>
+        const detailDiv = document.createElement('div');
+        detailDiv.classList.add('detail-div');
+        backCard.appendChild(detailDiv);
+
+            detailDiv.innerHTML = `
+                <p><b>${data.model}</b></p>
+                <p><b>${data.modelYear}</b></p>
                 <p>${data.shortText}</p>
         
         `;
         flipCardInner.appendChild(backCard);
-
-        //infocard było card
-        //card.addEventListener('click', () =>{
-          //showDetailsCard(data);
-            
-
-         
-
-    //    });
-
-        bmwPhotoBox.appendChild(card);
+        
     });
-
-
 
 }
 
     
-
-
-// function showDetailsCard(data) {
-
-
-//     const backCard = document.createElement('div');
-//     backCard.classList.add('flip-card-back');
-
-//     console.log("Model: ", data.model);
-//         backCard.innerHTML = `
-//             <p>${data.model}</p>
-//             <p>${data.modelYear}</p>
-//             <p>${data.shortText}</p>
-    
-//     `;
-  
-//     bmwPhotoBox.appendChild(backCard);
-
-
-//         //bmwCard.appendChild(infoCard);
-
-  
- 
-
-    
-// }
-
-
-// wypisywanie działa, teraz dodać okienko które będzie zawierało te informacje o danym modelu
-// tak samo mo

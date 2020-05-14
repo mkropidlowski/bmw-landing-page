@@ -119,7 +119,7 @@ body, html {
      align-items: center;
      width:225px;
      height: 225px;
-     background-color: rgb(247, 247, 247);
+     background-color: rgb(250, 250, 250);
      border-radius: 50%;
  }
 
@@ -160,66 +160,23 @@ body, html {
     justify-content: center;
     flex-direction: row;
     position: relative;
+    top:-15px;
     
 }
 
 .bmw-photo-box {
     width:450px;
-    height: 350px;
+    height: 360px;
     margin:50px 25px 0 25px;
-    /* border: 1px solid red; */
 }
 
 
-.bmw-photo-box:hover {
-    /* background-color: rgb(149, 181, 252); */
-}
-.photos-con {
-    
-    margin: 0 auto;
-}
-
-.bmw-card {
-    width:700px;
-    height: 500px;
-    background-color: #16588E;
-    margin: 0 auto;
-    
-}
-
-.exit {
-    margin-top: 20px;
-    border-radius: 100%;
-    border:0;
-    width:35px;
-    height: 35px;
-    background-color: #E7222E;
-    color:#fff;
-}
-.hide {
-    display: none;
-}
-
-.show {
-    display: block;
-}
-
-/* media query */ 
-
-@media only screen and (min-width: 1340px) {
-   
-    .photos-container {
-    width: 70%;
-    margin: 0 auto;
-    }
-
-}
-
-/* */
+/* FLIP CARD BMW */
 
 .flip-card {
     width: 450px;
-    height: 350px;
+    height: 360px;
+    text-align: center;
    
   }
   
@@ -228,9 +185,9 @@ body, html {
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 0.6s;
+    transition: transform 0.7s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(31, 31, 31, 0.2);
   }
   
   .flip-card:hover .flip-card-inner {
@@ -250,8 +207,38 @@ body, html {
   }
   
   .flip-card-back {
-    
+    display: flex;
+    justify-content: center;
     color:black;
     transform: rotateY(180deg);
+    background-color: rgb(245, 245, 245);
   }
 
+  .detail-div {
+     width:90%;
+     text-align: justify; 
+     
+  }
+/* */ 
+
+
+
+.about-engine {
+    height: 100%;
+}
+
+
+
+
+
+
+/* media query */ 
+
+@media only screen and (min-width: 1450px) {
+   
+    .photos-container {
+    width: 70%;
+    margin: 0 auto;
+    }
+
+}
