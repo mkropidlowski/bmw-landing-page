@@ -123,6 +123,7 @@ petrol.addEventListener('click', e =>{
  
     if(e.target.classList.contains('list-header')){      
        e.target.nextElementSibling.classList.remove('hide');
+       e.target.nextElementSibling.classList.add('show');
     } 
 
     if(e.target.classList.contains('content')){
