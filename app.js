@@ -134,6 +134,21 @@ petrol.addEventListener('click', e =>{
      }
 });
 
+
+diesel.addEventListener('click', e =>{
+ 
+    if(e.target.classList.contains('list-header')){      
+       e.target.nextElementSibling.classList.remove('hide');
+    } 
+
+    if(e.target.classList.contains('content')){
+       e.target.classList.add('hide');
+    }
+
+    if(e.target.classList.contains('hideClass')){
+        e.target.parentElement.classList.add('hide');   
+     }
+});
     
 
 
