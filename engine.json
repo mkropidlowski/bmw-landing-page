@@ -1,0 +1,155 @@
+[
+    {
+    "id": "1",
+    "version": "316i",
+    "motor": "R4 1,6 l (1597 cm³)",
+    "maxHp" : "122 KM",
+    "acceleration" : "10,8 s",
+    "maxSpeed" : "210 km/h",
+    "fuel" : "5,9L / 100km"
+    },
+        {
+        "id": "2",
+        "version": "318i",
+        "motor": "R4 2,0 l (1995 cm³)",
+        "maxHp" : "129 KM",
+        "acceleration" : "10,0 s",
+        "maxSpeed" : "208 km/h",
+        "fuel" : "7,3L / 100km"
+        },
+            {
+            "id": "3",
+            "version": "320i",
+            "motor": "R4 2,0 l (1995 cm³)",
+            "maxHp" : "150 KM",
+            "acceleration" : "9,0 s",
+            "maxSpeed" : "210 km/h",
+            "fuel" : "7,4L / 100km"
+            },
+            {
+                "id": "4",
+                "version": "320si",
+                "motor": "R4 2,0 l (1997 cm³)",
+                "maxHp" : "173 KM",
+                "acceleration" : "8,3 s",
+                "maxSpeed" : "225 km/h",
+                "fuel" : "b / d"
+                },
+                {
+                    "id": "5",
+                    "version": "323i",
+                    "motor": "R6 2,5 l (2497 cm³)",
+                    "maxHp" : "191 KM",
+                    "acceleration" : "7,8 s",
+                    "maxSpeed" : "233 km/h",
+                    "fuel" : "8,4L / 100km"
+                    },
+                    {
+                        "id": "6",
+                        "version": "325i",
+                        "motor": "R6 2,5 l (2497 cm³)",
+                        "maxHp" : "218 KM",
+                        "acceleration" : "7,0 s",
+                        "maxSpeed" : "245 km/h",
+                        "fuel" : "7,2 / 100km"
+                        },
+                        {
+                            "id": "7",
+                            "version": "325i",
+                            "motor": "R6 3,0 l (2996 cm³)",
+                            "maxHp" : "218 KM",
+                            "acceleration" : "6,8 s",
+                            "maxSpeed" : "248 km/h",
+                            "fuel" : "7,2L / 100km"
+                            },
+                            {
+                                "id": "8",
+                                "version": "328i US",
+                                "motor": "R6 3,0 l (2996 cm³)",
+                                "maxHp" : "218 KM",
+                                "acceleration" : "6,3 s",
+                                "maxSpeed" : "209 km/h",
+                                "fuel" : "b / d"
+                                },
+                                {
+                                    "id": "9",
+                                    "version": "330i",
+                                    "motor": "R6 3,0 l (2996 cm³)",
+                                    "maxHp" : "257 KM",
+                                    "acceleration" : "6,1 s",
+                                    "maxSpeed" : "250 km/h",
+                                    "fuel" : "7,2L / 100km"
+                                    },
+                                    {
+                                        "id": "10",
+                                        "version": "335i",
+                                        "motor": "R6 3,0 l (2979 cm³), twin-turbo",
+                                        "maxHp" : "306 KM",
+                                        "acceleration" : "5,6 s",
+                                        "maxSpeed" : "250 km/h",
+                                        "fuel" : "9,6L / 100km"
+                                        },
+                                        {
+                                            "id": "11",
+                                            "version": "M3 V8",
+                                            "motor": "V8 4,0 l (3999 cm³)",
+                                            "maxHp" : "420 KM",
+                                            "acceleration" : "4,8 s",
+                                            "maxSpeed" : "270 km/h",
+                                            "fuel" : "12,4L / 100km"
+                                            },
+                                            {
+                                                "id": "12",
+                                                "version": "316d",
+                                                "motor": "R4 2,0 l (1995 cm³)",
+                                                "maxHp" : "115 KM",
+                                                "acceleration" : "10,9 s",
+                                                "maxSpeed" : "202 km/h",
+                                                "fuel" : "4,5L / 100km"
+                                                },
+                                                {
+                                                    "id": "13",
+                                                    "version": "318d",
+                                                    "motor": "R4 2,0 l (1995 cm³)",
+                                                    "maxHp" : "143 KM",
+                                                    "acceleration" : "9,3 s",
+                                                    "maxSpeed" : "210 km/h",
+                                                    "fuel" : "4,7L / 100km"
+                                                    },
+                                                    {
+                                                        "id": "14",
+                                                        "version": "320d",
+                                                        "motor": "R4 2,0 l (1995 cm³)",
+                                                        "maxHp" : "177 KM",
+                                                        "acceleration" : "7,9 s",
+                                                        "maxSpeed" : "230 km/h",
+                                                        "fuel" : "4,8L / 100km"
+                                                        },
+                                                        {
+                                                            "id": "15",
+                                                            "version": "325d",
+                                                            "motor": "R6 3,0 l (2993 cm³)",
+                                                            "maxHp" : "150 KM",
+                                                            "acceleration" : "9,0 s",
+                                                            "maxSpeed" : "210 km/h",
+                                                            "fuel" : "7,4L / 100km"
+                                                            },
+                                                            {
+                                                                "id": "16",
+                                                                "version": "330d",
+                                                                "motor": "R6 3,0 l (2993 cm³)",
+                                                                "maxHp" : "245 KM",
+                                                                "acceleration" : "6,1 s",
+                                                                "maxSpeed" : "250 km/h",
+                                                                "fuel" : "5,7L / 100km"
+                                                                },
+                                                                {
+                                                                    "id": "17",
+                                                                    "version": "335d",
+                                                                    "motor": "R6 3,0 l (2993 cm³)",
+                                                                    "maxHp" : "286 KM",
+                                                                    "acceleration" : "5,2 s",
+                                                                    "maxSpeed" : "250 km/h",
+                                                                    "fuel" : "7,5L / 100km"
+                                                                    }
+]

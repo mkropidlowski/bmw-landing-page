@@ -5,7 +5,7 @@ body, html {
 }
 
 .header {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("img/bmwbg.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("img/test.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -223,9 +223,53 @@ body, html {
 
 
 
-.about-engine {
+
+.about-engine{
     height: 100%;
+    width: 50%;
+    margin: 0 auto;
 }
+ 
+
+.powertrain {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+  .list-header {
+    font-weight: bold;
+    color: #fff;
+    width:250px;
+    height:50px;
+    background-color:#CA1F3D;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    align-items:center;
+    margin-top: 10px;
+  }
+  
+
+  .content {
+    width:250px;
+    height:200px;
+    background-color:orange;
+    
+    
+  }
+  .content > p {
+   margin: 0;
+   padding: 5px;
+    
+   }
+
+  .hide {
+    display: none;
+  }
+
+
+
 
 
 

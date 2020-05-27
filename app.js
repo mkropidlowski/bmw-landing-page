@@ -4,6 +4,7 @@ const bmwCard = document.querySelector('.bmw-card');
 const vGeneration = document.querySelector('.v-generation');
 
 getData();
+engineData();
 
 async function getData() {
     const response = await fetch('car.json');
@@ -52,4 +53,88 @@ function viewModel(output) {
 
 }
 
+
+
+// engine model 
+
+const petrol = document.querySelector('.petrol-engine-model');
+const diesel = document.querySelector('.diesel-engine-model');
+
+
+    async function engineData() {
+
+        const res = await fetch("engine.json");
+        const result = await res.json();
+
+        
+
+         result.forEach(data => {
+
+            const tabPetrol = ["1","2","3","4","5","6","7","8","9","10","11"];
+        
+            if(tabPetrol.includes(data.id)){
+            const html = `
+            
+            <div class="list-header">
+            <span class="main-text">${data.version}</span>
+        </div>
+
+        <div class="content hide">
+            <p class="hideClass">Motor: ${data.motor}</p>
+            <p class="hideClass">Max HP: ${data.maxHp}</p>
+            <p class="hideClass">Acceleration: ${data.acceleration}</p>
+            <p class="hideClass">Max speed: ${data.maxSpeed}</p>
+            <p class="hideClass">Fuel: ${data.fuel}</p>
+        </div>   
+             
+        `;
+            petrol.innerHTML += html;
+              
+            };
+
+            const tabDiesel = ["12","13","14","15","16","17"];
+            if(tabDiesel.includes(data.id)){
+                const html = `
+                
+                <div class="list-header">
+                <span class="main-text">${data.version}</span>
+            </div>
     
+            <div class="content hide">
+                <p class="hideClass">Motor: ${data.motor}</p>
+                <p class="hideClass">Max HP: ${data.maxHp}</p>
+                <p class="hideClass">Acceleration: ${data.acceleration}</p>
+                <p class="hideClass">Max speed: ${data.maxSpeed}</p>
+                <p class="hideClass">Fuel: ${data.fuel}</p>
+            </div>   
+                 
+            `;
+                diesel.innerHTML += html;
+                  
+                };
+         });
+
+
+        
+
+}
+
+petrol.addEventListener('click', e =>{
+ 
+    if(e.target.classList.contains('list-header')){      
+       e.target.nextElementSibling.classList.remove('hide');
+    } 
+
+    if(e.target.classList.contains('content')){
+       e.target.classList.add('hide');
+    }
+
+    if(e.target.classList.contains('hideClass')){
+        e.target.parentElement.classList.add('hide');   
+     }
+});
+
+    
+
+
+
