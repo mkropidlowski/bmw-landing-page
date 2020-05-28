@@ -308,9 +308,7 @@ footer {
 
 @media only screen and (max-width:768px) {
 
-    .nav-menu {
-        display: none;
-    }
+   
 
     .logo > img {
         width:40px;
@@ -324,37 +322,11 @@ footer {
         
     }
 
-    .hamburger {
-        display: inline;
-        cursor: pointer;
-        z-index: 11;
-    }
-
-    .barF {
-        background-color: #81C4FF;
-    }
-    
-    .barS {
-        background-color: #16588E;
-    }
-
-    .barT {
-        background-color: #E7222E;
-    }
-
-    .barF,
-    .barS,
-    .barT {
-        width: 32px;
-        height: 5px;
-        margin: 6px 0;
-    }
-
     .header-note {
         position: absolute;
         top:120px;     
         font-size:23px;
-        width:90%;
+        width:80%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -398,7 +370,7 @@ footer {
     }
     .v-generation {
         width: 100%;
-        height: 250%;
+        height: 280%;
       
     }
 
@@ -411,7 +383,7 @@ footer {
     }
 
     .about-engine {
-        height: 200%;
+        height: 250%;
        
     }
 
@@ -424,7 +396,95 @@ footer {
         
     }
 
+    /* menu */ 
 
+    .nav-menu {
+    background: none;
+    width:290px;
+    transform: skewX(0deg);
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 1;    
+    }
+    .nav-menu ul li 
+    {
+    
+    transform: skewX(0deg);
+      
+    }
+    
+  
+    
+    .hamburger {
+        display: inline;
+        cursor: pointer;
+        z-index: 11;
+    }
+
+    .barF {
+        background-color: #81C4FF;
+    }
+    
+    .barS {
+        background-color: #16588E;
+    }
+
+    .barT {
+        background-color: #E7222E;
+    }
+
+    .barF,
+    .barS,
+    .barT {
+        width: 32px;
+        height: 5px;
+        margin: 6px 0;
+    }
+
+    .rotate {
+        position: absolute;
+        top: 33px;
+        right: 25px;
+        transform: rotate(45deg);
+        transition: .3s;
+    }
+    .rotate-second {
+        position: absolute;
+        top: 33px;
+        right: 25px;
+        transform: rotate(-45deg);
+        transition: .3s;
+    }
+    .animation {
+        transition: .3s;
+    }
+
+    #menuView {
+        position: fixed;
+        margin: 0;
+        width: 100%;
+        height: 350px;
+        background: #80bfff;
+        color: white;
+        display: none;
+        border-bottom-left-radius: 90%
+
+    }
+    #menuView li a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        
+    }
+    #menuView li {
+        margin-left: 35px;
+        padding-top: 30px;
+        list-style-type: none;
+        display: flex;
+    }
+
+    
 
 
 }
